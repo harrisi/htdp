@@ -16,3 +16,6 @@
 "Exercise 2.2.2"
 (define (dollar->euro dollars)
   (* dollars 0.9))
+"Exercise 2.2.3"
+(define (triangle base height)
+  (* 1/2 base height))
