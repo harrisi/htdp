@@ -13,3 +13,6 @@
 "Exercise 2.2.1"
 (define (Fahrenheit->Celsius temp)
   (* 5/9 (- temp 32)))
+"Exercise 2.2.2"
+(define (dollar->euro dollars)
+  (* dollars 0.9))
