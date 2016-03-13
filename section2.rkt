@@ -22,3 +22,21 @@
 "Exercise 2.2.4"
 (define (convert3 a b c)
   (+ (* c 100) (* b 10) a))
+"Exercise 2.2.5"
+(define (f n)
+  (+ (/ n 3) 2))
+(f 2) "should be" 8/3
+(f 5) "should be" 11/3
+(f 9) "should be" 5
+(define (f1 n)
+  (+ (sqr n) 10))
+(define (f2 n)
+  (+ 20 (* 1/2 (sqr n))))
+(define (f3 n)
+  (- 2 (/ 1 n)))
+(f1 2) "should be" 14
+(f2 2) "should be" 22
+(f3 2) "should be" 1.5
+(f1 9) "should be" 91
+(f2 9) "should be" 60.5
+(f3 9) "should be" 17/9
