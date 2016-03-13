@@ -5,3 +5,8 @@
 (sqr 5)
 (sin 1)
 (max 3 4)
+"Exercise 2.1.2"
+(sqrt 4)
+(sqrt 2)
+(sqrt -1)
+(tan 1)
