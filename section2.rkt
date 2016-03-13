@@ -10,3 +10,6 @@
 (sqrt 2)
 (sqrt -1)
 (tan 1)
+"Exercise 2.2.1"
+(define (Fahrenheit->Celsius temp)
+  (* 5/9 (- temp 32)))
