@@ -19,3 +19,6 @@
 "Exercise 2.2.3"
 (define (triangle base height)
   (* 1/2 base height))
+"Exercise 2.2.4"
+(define (convert3 a b c)
+  (+ (* c 100) (* b 10) a))
